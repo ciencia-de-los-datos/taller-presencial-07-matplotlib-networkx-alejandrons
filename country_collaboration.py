@@ -124,11 +124,12 @@ def plot_country_collaboration(countries, co_occurrences):
 
     plt.savefig("network.png")
 
-
-affiliations = load_affiliations()
-affiliations = remove_na_rows(affiliations)
-affiliations = create_countries_column(affiliations)
-countries = count_country_frequency(affiliations)
-countries = select_most_frequente_countries(countries, n_countries=5)
-co_occurrences = compute_co_occurrences(affiliations, countries)
-plot_country_collaboration(countries, co_occurrences)
+def main():
+        
+    affiliations = load_affiliations()
+    affiliations = remove_na_rows(affiliations)
+    affiliations = create_countries_column(affiliations)
+    countries = count_country_frequency(affiliations)
+    countries = select_most_frequente_countries(countries, n_countries=5)
+    co_occurrences = compute_co_occurrences(affiliations, countries)
+    plot_country_collaboration(countries, co_occurrences)

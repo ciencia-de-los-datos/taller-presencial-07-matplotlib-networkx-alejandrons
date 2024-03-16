@@ -1,0 +1,19 @@
+,node_a,node_b,size
+0,China,India,2
+1,China,United Kingdom,13
+2,China,United States,47
+3,India,China,2
+4,India,Italy,1
+5,India,United Kingdom,1
+6,India,United States,4
+7,Italy,India,1
+8,Italy,United Kingdom,12
+9,Italy,United States,16
+10,United Kingdom,China,13
+11,United Kingdom,India,1
+12,United Kingdom,Italy,12
+13,United Kingdom,United States,31
+14,United States,China,47
+15,United States,India,4
+16,United States,Italy,16
+17,United States,United Kingdom,31
